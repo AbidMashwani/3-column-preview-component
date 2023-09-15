@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "lexend-deca";
+  src: url("fonts/LexendDeca-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "shoulder";
+  src: url(fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  max-width: 920px;
+  margin-inline: auto;
+  margin-top: 100px;
+  /* margin: 100px auto; */
+  /* height: 500px; */
+}
+
+
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 48px;
+  border-radius: 10px;
+  color: #fff;
+  align-items: flex-start;
+}
+
+.card img{
+  width: 64px;
+  height: 40px;
+}
+
+.card .title{
+  font-size: 40px;
+  font-family: "shoulder";
+  padding: 35px 0 25px 0;
+}
+
+.card .descritpion{
+  line-height: 15px;
+  font-family: "lexend-deca";
+  font-weight: lighter;
+  padding-bottom: 83px;
+}
+
+
+.sedans{
+  background-color: #E28625;
+}
+
+
+.btn:hover{
+  background-color: transparent;
+  border: #fff 3px solid;
+  color: white !important; 
+  transition: background-color 300ms linear;
+  padding: 9px 28px;
+}
+
+.sedans .btn{
+  color: #E28625;
+}
+
+.suvs{
+  background-color: #006971;
+}
+
+.suvs .btn{
+  color: #006971;
+}
+
+.luxury{
+  background-color: #004140;
+}
+
+.luxury .btn{
+  color: #004140;
+}
+
+.btn{
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 25px;
+  color: transparent;
+  padding: 12px 31px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  text-align: left;
+  font-family: lexend-deca;
+  
+}
+
+@media (max-width: 1080px){
+  .container{
+    height: auto;
+    flex-direction: column;
+    max-width: 327px;
+  }
+
+  .card{
+    justify-content: space-between;
+    height: 440px;
+  }
+}
