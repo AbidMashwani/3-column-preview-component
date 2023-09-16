@@ -1,6 +1,7 @@
 # 3 column preview component
 
-![268018032-39964f50-8709-4140-9fb7-e9e23be1a840](https://github.com/AbidMashwani/3-column-preview-component/assets/145152805/b8a2865c-1cc5-412b-b7da-38e7bfdcac26)
+![Screenshot 2023-09-16 163046](https://github.com/AbidMashwani/3-column-preview-component/assets/145152805/1f5f1a57-e3ee-468f-b9ad-9b21a80dba21)
+
 
 
 This project showcases a simple and visually appealing way to present information about different car types using HTML and CSS. It provides concise details about sedans, SUVs, and luxury cars, along with an option to learn more about each type.
